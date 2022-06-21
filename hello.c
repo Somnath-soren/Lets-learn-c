@@ -14,5 +14,4 @@ int main()
 void func(int* a)
 {
   *a=*a+5;
-
 }

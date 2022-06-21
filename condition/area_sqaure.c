@@ -12,3 +12,4 @@ int main()
   return 0;
 }
 // Error in this program dont know why
+//compile the file with -lm in end 
