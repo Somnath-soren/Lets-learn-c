@@ -1,0 +1,1 @@
+cthis is fputct file in index.text
