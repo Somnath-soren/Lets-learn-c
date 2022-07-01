@@ -12,7 +12,7 @@ int main()
   struct Student s;
 
   printf("Enter the name of student\n");
-  scanf("%[^\n]*c",s.name);
+  scanf("%s",s.name);
 
   printf("Enter age of Student\n");
   scanf("%d",&s.age);
