@@ -2,20 +2,25 @@
 
 int main()
 {
-  int n,i,ans;
+  int no;
+  printf("Enter the number to check prime\n");
+  scanf("%d",&no);
+  int i,temp=0;
 
-  printf("Enter the number \n");
-  scanf("%d",&n);
-  for(i=2;i<=n/2;i++)
+  for(i=2;i*i<=no;i++)
   {
-    ans=n%i;
-    if(ans==0)
+    if(no%i==0)
     {
-      printf("Not a prime number\n");
-      break;
+      temp=temp+1;
     }
   }
-  if(ans==1)
-  printf("Number is prime number\n");
+  if(temp>0)
+  {
+    printf("Number is not prime\n");
+  }
+  else
+  {
+    printf("Number is prime\n");
+  }
   return 0;
 }
